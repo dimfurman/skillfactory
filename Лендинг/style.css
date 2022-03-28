@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+
+body {
+    background: #000;
+    font-weight: normal;
+    font-family: Nunito Sans;
+}
+header, footer {
+    background: #000;
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    height: 83px;
+    align-items: center;
+    font-size: 11px;
+    line-height: 15px;
+}
+h1 {
+    font-family: Yeseva One;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+h2 {
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 37px;
+    letter-spacing: -0.07em;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+h3 {
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+.h_center {
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #181818;
+    margin-bottom: 13px;
+}
+.white {
+    color: white;
+}
+.yellow_text {
+    color: #E3B873;
+}
+.center {
+    text-align: center;
+}
+.desc_h1 {
+    font-size: 22px;
+    line-height: 36px;
+    color: #FFFFFF;
+    max-width: 504px;
+    margin: 19px 0 40px 0;
+}
+section {
+    width: 100%;
+}
+
+.container {
+    display: block;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0px 90px;
+}
+
+a {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    color: #E3B873;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.logo_link {
+    margin-left: 18px;
+    margin-right: 24px;
+}
+nav a {
+    margin: 0 24px;
+    color: #FFFFFF;
+}
+nav a.active_link {
+    color: #E3B873;
+}
+.call {
+    margin-left: 24x;
+    margin-right: 18px;
+    display: flex;
+    align-items: center;
+}
+.call a {
+    margin-right: 45px;
+    text-decoration: underline;
+}
+button {
+    height: 51px;
+    width: 200px;
+    text-transform: uppercase;
+    color: #FFFFFF;    
+    border-radius: 2px; 
+    font-family: Nunito Sans;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center; 
+}
+.button_header {
+    padding: 13px 33px;
+    border-radius: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;  
+    height: auto;
+    width: auto;       
+}
+.buttons button {
+    font-style: italic;
+}
+.buttons button:first-child {
+    margin-right: 20px;
+}
+.yellow_button {
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border: 1px solid #00000000;
+}
+.grey_button {
+    border: 1px solid #FFFFFF;
+    background-color: #00000000;
+}    
+
+.first {
+    background-image: url('img/first_fon.png');
+    background-size: cover;
+    background-position: center;
+}
+.first .container {
+    padding: 200px 134px;
+}
+.shadow {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.projects p {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+.project {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 107px 0 92px 0;
+}
+.project > div:nth-child(2n+1) {
+    width: 35%;
+    position: relative;
+}
+.project > div:nth-child(2n+2) {
+    width: calc(65% - 50px);
+}
+.f2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.f2 > div {
+    margin-right: 34px;
+    width: calc(50% - 34px);
+}
+.slider_tabs {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+.slider_img {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.slider_tabs li {
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.3);
+    padding-bottom: 6px;
+}
+.slider_tabs li:not(:last-child) {
+    margin-right: 60.5px;
+}
+.slider_tabs li.active {
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #E3B873;
+    border-bottom: 1px #E3B873 solid;
+}
+.c1 {
+    height: 482px;
+    width: 100%;
+    background-image: url('img/projects1.png');
+    background-size: cover;
+    background-position: center;
+}
+.slider_arrows {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    bottom: 0px;
+}
+.dots {
+    display: flex;
+    flex-direction: row;
+    padding: 0 20px;
+}
+.dots li {
+    width: 10px;
+    height: 10px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 30px;
+    margin: 0 9px;
+}
+.dots li.active { 
+    background: #FFFFFF;
+}
+.video {
+    background-image: url(img/white.png);
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
+    background-position: 0% 100%;
+    padding: 30px 0;
+}
+.video_player{
+    background-image: url(img/video_preview.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 817px;
+    height: 434px;
+    margin: 0 auto;
+}
+.video_player > div{
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+}
+.video_player > div > div {
+    background-image: url(img/play.svg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+}
+@media screen and (min-width: 1440px) {
+
+}
