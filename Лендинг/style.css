@@ -99,6 +99,7 @@ section {
     margin: 0 auto;
     padding: 0px 90px;
     box-sizing: border-box;
+    position: relative;
 }
 
 a {
@@ -234,6 +235,7 @@ button {
     list-style: none;
     display: flex;
     flex-direction: row;
+    margin-bottom: 45px;
 }
 
 .slider_img {
@@ -676,8 +678,12 @@ input:focus-visible {
 
 .clients {
     background-color: white;
+    background-image: url(img/city.svg);
+    background-size: 116%;
+    background-position: bottom center;
+    background-repeat: no-repeat;
     text-align: center;
-    padding: 110.47px 0;
+    padding: 110.47px 0 222px;
 }
 
 .clients h3 {
@@ -749,6 +755,50 @@ input:focus-visible {
 
 .client_info div:first-child {
     border-right: 1px solid white;
+}
+
+.map {
+    background-color: #000;
+    background-image: url(img/fon_map.png);
+    background-size: cover;
+    text-align: center;
+}
+
+.map .container {
+    top: -222px;
+}
+
+.any_questions {
+    background-color: #000;
+    padding: 34.4px 181.5px;
+    text-align: center;
+    margin-bottom: 52px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.soc_icons a {
+    margin-top: 26px;
+    height: 28px;
+    width: 28px;
+    display: inline-block;
+}
+
+.mail {
+    background-image: url(img/mail.svg);
+    margin-right: 15px;
+}
+
+.inst {
+    background-image: url(img/inst.svg);
+}
+
+.map_frame {
+    margin: 43.29px 0 65.93px;
 }
 
 @media screen and (min-width: 1440px) {}
